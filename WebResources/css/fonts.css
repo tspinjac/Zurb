@@ -1,0 +1,35 @@
+@font-face { font-family: 'Tele-GroteskFet'; src: url('../font/tele-groteskfet-webfont.eot'); src: url('../font/tele-groteskfet-webfont.eot?#iefix') format('embedded-opentype'), url('../font/tele-groteskfet-webfont.svg#tele-groteskfetregular') format('svg'), url('../font/tele-groteskfet-webfont.woff') format('woff'), url('../font/tele-groteskfet-webfont.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'Tele-GroteskHal'; src: url('../font/tele-groteskhal-webfont.eot'); src: url('../font/tele-groteskhal-webfont.eot?#iefix') format('embedded-opentype'), url('../font/tele-groteskhal-webfont.svg#tele-groteskhalregular') format('svg'), url('../font/tele-groteskhal-webfont.woff') format('woff'), url('../font/tele-groteskhal-webfont.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'Tele-Grotesk'; src: url('../font/tele-grotesknor-webfont.eot'); src: url('../font/tele-grotesknor-webfont.eot?#iefix') format('embedded-opentype'), url('../font/tele-grotesknor-webfont.woff') format('woff'), url('../font/tele-grotesknor-webfont.ttf') format('truetype'), url('../font/tele-grotesknor-webfont.svg#tele-grotesknorregular') format('svg'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'Tele-GroteskUlt'; src: url('../font/tele-groteskult-webfont.eot'); src: url('../font/tele-groteskult-webfont.eot?#iefix') format('embedded-opentype'), url('../font/tele-groteskult-webfont.svg#tele-groteskultregular') format('svg'), url('../font/tele-groteskult-webfont.woff') format('woff'), url('../font/tele-groteskult-webfont.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'Headline'; src: url('../font/telegroteskheadline.eot'); src: url('../font/telegroteskheadline.eot?#iefix') format('embedded-opentype'), url('../font/telegroteskheadline.svg#telegrotesk_headlineregular') format('svg'), url('../font/telegroteskheadline.woff') format('woff'), url('../font/telegroteskheadline.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'Headline-Ult'; src: url('../font/telegroteskheadline-ultra.eot'); src: url('../font/telegroteskheadline-ultra.eot?#iefix') format('embedded-opentype'), url('../font/telegroteskheadline-ultra.svg#telegrotesk_headline_ultraRg') format('svg'), url('../font/telegroteskheadline-ultra.woff') format('woff'), url('../font/telegroteskheadline-ultra.ttf') format('truetype'); font-weight: normal; font-style: normal; }
+
+.slikaBig {
+		width: 100%;
+		position: relative;
+		padding: 0;
+		margin: 0!important;
+		text-transform: none;
+		height: calc(100vw*0.3);
+		background: url(../images/THT/section-cover-foto.jpg) no-repeat center;
+		text-transform: none;
+		background-size: contain;
+	}
+
+.slikaBig2 {
+		width: 100%;
+		position: relative;
+		padding: 0;
+		margin: 0!important;
+		text-transform: none;
+		height: calc(100vw*0.2);
+		background: url(../images/THT/section-content-photo.jpg) no-repeat center;
+		text-transform: none;
+		background-size: contain;
+	}
+
+.inverse-white {
+	margin-top:5%;
+	padding:0;
+}

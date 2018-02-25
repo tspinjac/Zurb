@@ -1,0 +1,78 @@
+/* Custom css file, Tomislav */
+
+.prvi, .drugi {
+	position: relative;
+	background-color: transparent;
+	width: 100%;
+	height: 100%;
+}
+
+/* ### Slika 1 ### */
+.slika1 {
+	background: url(../images/THT/section-cover-foto.jpg) no-repeat center;
+	background-size: cover;
+	height: 55vh;	
+	width: 100%;
+}
+
+/* Text na prvoj slici */
+.textPozicija1 {
+	top:30%;
+	left:20%;
+	position: absolute;
+}
+
+/* ### Slika 2 ### */
+.slika2 {
+	background: url(../images/THT/section-content-photo.jpg) no-repeat center;
+	background-size: cover;
+	width: 100%;
+	height: 220px;
+}
+
+/*  Text na drugoj slici  */
+.textPozicija2 {
+	top:20%;
+	left:20%;
+	position: absolute;
+}
+
+
+/**/
+
+
+/*### FOOTER ### */
+.paketi-2017 a>img {
+    border: none;
+    outline: none;
+    display: inline-block;
+}
+
+/* Utility */
+.underline {
+	text-decoration: underline;
+}
+
+.infoKruzic {
+	position: absolute;
+	top: 25%; 
+	left:60%; 
+	font-size: 2em; 
+	background-color: #e20074; 
+	color:white;
+}
+
+.mobiteli {
+	position: relative;
+}
+.mob1 {
+	position: absolute;
+	bottom: 0;
+}
+
+.cijena {
+	display: inline-block;
+	font-size: 2em;
+	font-weight: 600; 
+	padding-top:20px;
+}

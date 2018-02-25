@@ -1,0 +1,450 @@
+
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+   <title>Tomislav Rjesenje_v2 </title>    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="HTFramework" />
+    <meta name="description" content="HTFramework">
+    <meta name="robots" content="NOINDEX, NOFOLLOW">
+    <link type="image/x-icon" href="favicon.ico" rel="shortcut icon">
+    <link rel="stylesheet" type="text/css" href="webresources/css/fonts.css" />
+    <!-- main HT styles do not edit-->    
+    <link rel="stylesheet" type="text/css" href="https://www.hrvatskitelekom.hr/webresources/css/htws-2015.min.css" />
+    <!-- here you can attach your css style sheet file /webresources/css/ --> 
+    <link rel="stylesheet" href="WebResources/css/style.css"> 
+    <!-- jQuery file is linked to our sever, please uncomment if needed -->
+    <script type="text/javascript" src="https://static.hrvatskitelekom.hr/webresources/js/jquery_1.7.2.js"></script>
+</head>
+
+<body>
+  
+<!-- 1. Master header (top-bar, navigacija, izbornici, hamburger menu and stuff... HT -->    
+    <div class="paketi-2017">
+      <header id="header-2016">
+         <div class="topbar-2016 bw clearfix" id="top">
+            <!-- wsTopNavigation2016 -->
+            <div class="service-bar">
+               <ul>
+                  <li class="active"><a href="/">Privatni</a></li>
+                  <li><a href="/poslovni">Poslovni</a></li>
+                  <li><a href="/visiting-croatia">For Tourists</a></li>
+                  <li class="custom-right status-2016"><a href="/webshop/status-narudzbe" class="nav-ico status" title="Status narudžbe"></a></li>
+                  <li class="custom-right basket-2016"><a href="/kosarica" class="nav-ico basket" title="Košarica"></a></li>
+                  <li id="user-profile" class="custom-right user-2016">
+                     <a title="Prijavite se" class="nav-ico user-girl"></a>
+                     <div class="bg-cont hidden">
+                        <ul>
+                           <li><a id="testrunner-btn-login" class="uppercase" href="/sso/prijava?returnUrl=https%3a%2f%2fwww.hrvatskitelekom.hr%2fponuda-za-djecu"><span>Prijavite se</span></a></li>
+                           <li>
+                              Novi korisnik?
+                              <a class="plainlink" href="https://moj.hrvatskitelekom.hr/public#registracija">
+                              Registrirajte se
+                              </a>
+                           </li>
+                           <li class="divider"><a href="https://moj.hrvatskitelekom.hr/korisnik/dodavanje-usluge">
+                              Dodajte novu uslugu u Moj Telekom
+                              </a>
+                           </li>
+                           <li><a href="https://moj.hrvatskitelekom.hr/korisnik/opcije-dostave-racuna">
+                              Postavke dostave računa
+                              </a>
+                           </li>
+                           <li class="divider"><a href="https://moj.hrvatskitelekom.hr/korisnik/uredi-profil">
+                              Uredite korisničke podatke
+                              </a>
+                           </li>
+                           <li><a href="https://moj.hrvatskitelekom.hr/korisnik/promjena-lozinke">
+                              Promijenite lozinku
+                              </a>
+                           </li>
+                        </ul>
+                     </div>
+                  </li>
+               </ul>
+            </div>
+            <!-- END wsTopNavigation2016 -->
+
+          <!-- wsMainNavigation2016 -->
+            <div class="navbar-2016">
+               <div class="site-title-2016"><a href="/"><span>Hrvatski Telekom</span></a></div>
+               <button type="button" id="botun" class="navbar-toggle" data-toggle="collapse">
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               </button>
+               <div class="nav-2016" id="navigation-2016">
+                  <div class="section-gray">
+                     <ul>
+                        <li>
+                           <a href="" class="drop">Magenta 1</a>
+                           <div class="bg-cont">
+                              <ul class="row">
+                                 <li class="medium-4 columns">
+                                    <a href="/magenta1">Magenta 1</a>
+                                    <ul>
+                                       <li><a href="/magenta1">Što je magenta 1</a></li>
+                                       <li><a href="/magenta1/magenta-1-max-paketi">Magenta 1 MAX paketi</a></li>
+                                       <li><a href="/webshop/magenta1/zahtjev">Naručite Magentu 1</a></li>
+                                    </ul>
+                                 </li>
+                              </ul>
+                           </div>
+                        </li>
+                        <li>
+                           <a href="" class="drop">Mobilne usluge</a>
+                           <div class="bg-cont">
+                              <ul class="row">
+                                 <li class="medium-2 columns">
+                                    <a href="/mobiteli">Mobiteli</a>
+                                    <ul>
+                                       <li><a href="/mobiteli/produljenje-ugovora">Uz produljenje ugovora</a></li>
+                                       <li><a href="/mobiteli/novi-ugovor">Uz pretplatu</a></li>
+                                       <li><a href="/mobiteli/novi-ugovor?gapt=4-1-1-1-0-0-0&amp;altab=simo">Uz tarifu s dodatnim GB</a></li>
+                                       <li><a href="/mobiteli-na-bonove">Na bonove</a></li>
+                                       <li><a href="/rabljeni-mobiteli">Rabljeni</a></li>
+                                       <li><a href="/novo-u-ponudi">Novo u ponudi</a></li>
+                                    </ul>
+                                 </li>
+                                 <li class="medium-2 columns">
+                                    <a href="/mobilni-internet">Mobilni internet</a>
+                                    <ul>
+                                       <li><a href="https://www.hrvatskitelekom.hr/internet-uredaji/novi-ugovor?internetDeviceType=4&amp;gapt=8-1-1-1-0-0-0">Tableti</a></li>
+                                       <li><a href="https://www.hrvatskitelekom.hr/internet-uredaji/novi-ugovor?internetDeviceType=8&amp;gapt=8-1-1-1-0-0-0">Laptopi</a></li>
+                                       <li><a href="https://www.hrvatskitelekom.hr/internet-uredaji/novi-ugovor?internetDeviceType=2&amp;gapt=8-1-1-1-0-0-0">USB modemi</a></li>
+                                    </ul>
+                                 </li>
+                                 <li class="medium-2 columns">
+                                    <a href="/mobilne-tarife">Tarife</a>
+                                    <ul>
+                                       <li><a href="/mobilne-tarife/razgovor-uz-pretplatu">Na pretplatu</a></li>
+                                       <li><a href="/mobilne-tarife/razgovor-uz-bonove">Na bonove</a></li>
+                                       <li><a href="/mobilne-tarife/surfanje-uz-pretplatu">Mobilni internet uz pretplatu</a></li>
+                                       <li><a href="/mobilne-tarife/surfanje-uz-bonove">Internet uz bonove</a></li>
+                                    </ul>
+                                 </li>
+                                 <li class="medium-2 columns">
+                                    <a href="/pogodnosti">POGODNOSTI</a>
+                                    <ul>
+                                       <li><a href="/pogodnosti/ponuda-za-mlade">Ponuda za mlade</a></li>
+                                       <li><a href="/pogodnosti/ponuda-za-djecu">Za vašu djecu</a></li>
+                                       <li><a href="/rasprodaja">Rasprodaja mobitela</a></li>
+                                       <li><a href="/pogodnosti/produljenje-ugovora">Produljite ugovor</a></li>
+                                       <li><a href="/prijenos-broja">Prenesite broj iz druge mreže</a></li>
+                                       <li><a href="/pogodnosti/sve-sto-vam-je-potrebno">Samo tarifa</a></li>
+                                       <li><a href="/mobilne-usluge/korisnici-bonova/prijelaz-na-pretplatu">Prijeđite s bonova na pretplatu</a></li>
+                                    </ul>
+                                 </li>
+                                 <li class="medium-2 columns">
+                                    <a href="/dodatne-usluge">Dodatne usluge</a>
+                                    <ul>
+                                       <li><a href="/mobilne-usluge/usluge/roaming">Roaming</a></li>
+                                       <li><a href="/nadoplata-bona">Nadoplata bona</a></li>
+                                       <li><a href="/mobilne-usluge/usluge/roditeljska-zastita">Roditeljska zaštita</a></li>
+                                       <li><a href="/karta-pokrivenosti">Karta pokrivenosti</a></li>
+                                       <li><a href="/mobilne-usluge/pretplatnici/tarifne-opcije">Tarifne opcije za pretplatnike</a></li>
+                                       <li><a href="/dodatne-usluge/esim">eSIM</a></li>
+                                       <li><a href="/dodatne-usluge/stream-on">Stream On</a></li>
+                                    </ul>
+                                 </li>
+                                 <li class="medium-2 columns">
+                                 </li>
+                              </ul>
+                           </div>
+                        </li>
+                        <li>
+                           <a href="" class="drop">Fiksne usluge</a>
+                           <div class="bg-cont">
+                              <ul class="row">
+                                 <li class="medium-2 columns">
+                                    <a href="/internet">Internet</a>
+                                    <ul>
+                                       <li><a href="/max-paketi/optika">Brzi optički internet</a></li>
+                                       <li><a href="/internet/maxadsl">ADSL internet</a></li>
+                                    </ul>
+                                 </li>
+                                 <li class="medium-2 columns">
+                                    <a href="/televizija">Televizija</a>
+                                    <ul>
+                                       <li><a href="/televizija/maxtv">MAXtv putem interneta</a></li>
+                                       <li><a href="/televizija/maxtv-sat">MAXtv putem satelita</a></li>
+                                       <li><a href="/televizija/maxtv-sat-prenosiva-kartica">MAXtv putem satelita na prenosivoj kartici</a></li>
+                                       <li><a href="/televizija/maxtv-to-go">MAXtv To Go</a></li>
+                                       <li><a href="/televizija/programski-paketi/maxtv">MAXtv programi</a></li>
+                                    </ul>
+                                 </li>
+                                 <li class="medium-2 columns">
+                                    <a href="/telefon">Telefon</a>
+                                    <ul>
+                                       <li><a href="/telefon/narudzba/izbor-akcija-nova-linija">Priključak</a></li>
+                                       <li><a href="/telefon/korisnicki-paketi">Tarife</a></li>
+                                       <li><a href="/telefon/tarifne-opcije">Opcije</a></li>
+                                       <li><a href="/dodatne-usluge/halo-pojedinacne">Dodatne usluge</a></li>
+                                    </ul>
+                                 </li>
+                                 <li class="medium-2 columns">
+                                    <a href="/pogodnosti">Pogodnosti</a>
+                                    <ul>
+                                       <li><a href="/paketi/ponuda-za-starije">Ponuda za starije</a></li>
+                                       <li><a href="/pogodnosti/top-kombinacija-maxtv-uz-telefon">Top kombinacija: MAXtv + HALO</a></li>
+                                    </ul>
+                                 </li>
+                                 <li class="medium-2 end columns">
+                                    <a href="/dodatne-usluge">Dodatne usluge</a>
+                                    <ul>
+                                       <li><a href="/televizija/maxtv/videoteka">Videoteka</a></li>
+                                       <li><a href="/televizija/maxtv/snimalica">Snimalica</a></li>
+                                       <li><a href="/hbogo">HBO GO</a></li>
+                                       <li><a href="/televizija/pickbox">Pickbox</a></li>
+                                    </ul>
+                                 </li>
+                                 <li class="medium-2 columns"><a href="/energija/struja">Struja</a>
+                                 </li>
+                              </ul>
+                           </div>
+                        </li>
+                        <li>
+                           <a href="" class="drop">Paketi</a>
+                           <div class="bg-cont">
+                              <ul class="row">
+                                 <li class="medium-3 columns">
+                                    <a href="/max-paketi">MAX paketi</a>
+                                    <ul>
+                                       <li><a href="/max-paketi/menu?menu=i-p">Internet + Telefon</a></li>
+                                       <li><a href="/max-paketi/menu?menu=i-tv">Internet + Televizija</a></li>
+                                       <li><a href="/max-paketi/menu?menu=i-tv-p ">Internet + Televizija + telefon</a></li>
+                                    </ul>
+                                 </li>
+                                 <li class="medium-2 end columns">
+                                    <a href="/pogodnosti">Pogodnosti</a>
+                                    <ul>
+                                       <li><a href="/paketi/ponuda-za-starije">Ponuda za starije</a></li>
+                                       <li><a href="/pogodnosti/top-kombinacija-maxtv-uz-telefon">Top kombinacija: MAXtv + HALO</a></li>
+                                    </ul>
+                                 </li>
+                              </ul>
+                           </div>
+                        </li>
+                        <li><a href="/uskoro-u-ponudi/gadgeti">Gadgeti</a></li>
+                        <li class="search-2016">
+                           <a href=""><span class="nav-ico search"></span></a>
+                           <div class="bg-cont">
+                              <ul class="row">
+                                 <li class="medium-12 columns">
+                                    <div id="main-nav-search" class="search-field-2016 clearfix"><label for="q"></label><input type="search" class="input-search" name="q" id="q"><a id="search-start" class="button-2016 button-2016-magenta button-2016-short">Traži</a></div>
+                                    <div class="search-suggestions">
+                                       <p class="s margin-top-2">Popis najtraženijih pojmova</p>
+                                       <ul class="margin-top-05">
+                                          <li class="medium-2 columns">
+                                             <ul>
+                                                <li><a href="https://www.hrvatskitelekom.hr/produljenje">produljenje ugovora</a></li>
+                                                <li><a href="/mobilne-tarife">novi ugovor</a></li>
+                                                <li><a href="/prijenos-broja">prijelaz iz druge mreže</a></li>
+                                                <li><a href="/mobilne-usluge/korisnici-bonova/prijelaz-na-pretplatu">prijelaz s bonova na pretplatu</a></li>
+                                             </ul>
+                                          </li>
+                                          <li class="medium-2 columns">
+                                             <ul>
+                                                <li><a href="https://www.hrvatskitelekom.hr/mobiteli">mobiteli</a></li>
+                                                <li><a href="https://www.hrvatskitelekom.hr/mobiteli/novi-ugovor?NoRedirect=1&amp;gapt=4-1-1-1-0-0-0&amp;brandId=416">iphone</a></li>
+                                                <li><a href="https://www.hrvatskitelekom.hr/mobiteli/novi-ugovor?NoRedirect=1&amp;gapt=4-1-1-1-0-0-0&amp;brandId=425">samsung</a></li>
+                                                <li><a href="https://www.hrvatskitelekom.hr/uskoro-u-ponudi/gadgeti/dronovi">dronovi</a></li>
+                                                <li><a href="https://www.hrvatskitelekom.hr/mobilne-tarife">mobilne tarife</a></li>
+                                             </ul>
+                                          </li>
+                                          <li class="medium-2 columns">
+                                             <ul>
+                                                <li><a href="https://www.hrvatskitelekom.hr/supertjedan">popusti</a></li>
+                                                <li><a href="https://www.hrvatskitelekom.hr/rasprodaja">rasprodaja</a></li>
+                                                <li><a href="https://www.hrvatskitelekom.hr/nadoplata-bona">nadoplata bona</a></li>
+                                             </ul>
+                                          </li>
+                                          <li class="medium-2 columns">
+                                             <ul>
+                                                <li><a href="https://www.hrvatskitelekom.hr/internet">internet</a></li>
+                                                <li><a href="https://www.hrvatskitelekom.hr/televizija/maxtv">maxtv</a></li>
+                                                <li><a href="https://www.hrvatskitelekom.hr/mobilne-usluge/usluge/roditeljska-zastita">roditeljska zaštita</a></li>
+                                             </ul>
+                                          </li>
+                                          <li class="medium-2 end columns">
+                                             <ul>
+                                                <li><a href="https://www.hrvatskitelekom.hr/podrska/racuni">računi</a></li>
+                                                <li><a href="https://www.hrvatskitelekom.hr/pravne-napomene/cjenici">cjenici</a></li>
+                                                <li><a href="https://www.hrvatskitelekom.hr/podrska/virtualni-tehnicar">Virtualni tehničar</a></li>
+                                                <li><a href="https://www.hrvatskitelekom.hr/podrska/smetnje#prijava-smetnje">prijava smetnje</a></li>
+                                             </ul>
+                                          </li>
+                                       </ul>
+                                    </div>
+                                 </li>
+                              </ul>
+                           </div>
+                        </li>
+                        <li class="custom-right"><a href="http://moj.hrvatskitelekom.hr/public">Moj Telekom</a></li>
+                        <li class="custom-right"><a href="/podrska">Podrška</a></li>
+                     </ul>
+                     <a class="nav2016-close-btn nav-ico close-nav"></a>
+                  </div>
+               </div>
+            </div>
+            <!-- END wsMainNavigation2016 -->
+         </div>
+      </header>
+    </div>
+
+<!--2. BreadCrumbs by HT-->
+  <nav class="row breadcrumbs-2017">
+      <span class="gray">| LOREM IPSUM</span> &gt; <a href="/pogodnosti">Lorem ipsum</a> &gt; <span>Lorem ipsum</span>
+  </nav>
+
+<!-- 3. SLIKA 1 (kao background sa klasom slika1 i text)  -->
+  <div class="paketi-2017 slika1">
+    <div class="prvi row">
+      <div class="textPozicija1 padding-bottom-25 small-6 medium-6 end columns">
+        <p class="inverse-magenta xl">Internet to go</p><br>
+        <p class="inverse-magenta m lowercase margin-top-05 font-700">Brzi internet za van koji nosite gdje želite</p>
+      </div>
+      <div class="small-12 columns">&nbsp;</div>
+     </div>
+  </div>
+
+<!-- 3.1. Text i boxovi ispod SLIKE 1 -->
+  <section class="margin-top-3 margin-bottom-3 paketi-2017">
+    <div class="row center">
+      <div class="small-12 columns">
+        <h2 class="margin-bottom-1 xxl">
+            Lorem ipsum...
+        </h2>
+        <p class="margin-bottom-2 center sm">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis perspiciatis cupiditate quo rem reiciendis corporis, provident quia ducimus neque odio repellendus illo sint aspernatur, quasi debitis laborum numquam eveniet inventore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga ex ipsam, omnis deserunt beatae praesentium asperiores dignissimos, labore sunt, repudiandae, quaerat cum recusandae molestiae eligendi expedita nemo. Id, commodi voluptate?
+        </p>
+      </div>
+    <!-- Blokovi sa slikama -->
+      <div class="margin-top-3 medium-3 small-6 columns">
+          <p class="l font-700"><img src="WebResources/images/THT/fms-1.png" alt="Box image1"></p>
+          <p><strong>Mobility</strong><br> dummy text 2nd line...</p>
+      </div>
+      <div class="margin-top-3 medium-3 small-6 columns">
+          <p class="l font-700"><img src="WebResources/images/THT/fms-2.png" alt="Box image2"></p>
+          <p><strong>Flexibility</strong><br> dummy text 2nd line...</p>
+      </div>
+      <div class="margin-top-3 medium-3 small-6 columns">
+          <p class="l font-700"><img src="WebResources/images/THT/fms-3.png" alt="Box image3"></p>
+          <p><strong>Dara Amount</strong><br> dummy text 2nd line...</p>
+      </div>
+      <div class="margin-top-3 medium-3 small-6  columns">
+          <p class="l font-700"><img src="WebResources/images/THT/fms-4.png" alt="Box image4"></p>
+          <p><strong>4GB Internet</strong><br> dummy text 2nd line...!</p>
+      </div>
+    </div>
+  </section>
+
+<!-- 4. Druga slika i tekst  naslici, kružić info-->
+  <div class="paketi-2017 slika2">
+    <div class="drugi row">
+      <!-- KRUŽIĆ -->
+        <div class="infoKruzic ec-circle section-cyan">
+          <p class=" L FONT-800 center padding-top-15"><strong>30 GB</strong><br><br>40kn</p>
+        </div>
+      <div class="textPozicija2 padding-bottom-25 small-8 medium-4 columns">
+        <p class="inverse-white s"> Lorem ipsum dolor sit amet</p>
+        <p class="inverse-white xs lowercase margin-top-05">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+        <p class="inverse-white xs lowercase margin-top-05">Lorem ipsum dolor sit amet. </p>
+      </div>
+      <div class="small-4 medium-8 columns">&nbsp;</div>
+     </div>
+  </div>
+
+<!-- Text i blokovi ispod slike 2 -->
+  <section class=" margin-top-3 margin-bottom-3 story center paketi-2017">
+    <div class="row">
+      <div class="small-12 columns">
+        <h2 class="margin-bottom-1 xxl">
+            Lorem ipsum...
+        </h2>
+        <p class="margin-bottom-2 center sm">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.quasi debitis laborum numquam eveniet inventore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga ex ipsam, omnis deserunt beatae praesentium asperiores dignissimos, labore sunt, repudiandae, quaerat cum recusandae molestiae eligendi expedita nemo. Id, commodi voluptate?
+        </p>
+      </div>
+    </div>
+
+    <div class=" mobiteli row">
+      <div class=" mob1 align-self-bottom medium-6 small-6 columns">
+        <p class="l font-700"><img src="WebResources/images/THT/alcatel_illustration.png" alt=""></p>
+        <p class="margin-bottom-1">Alcatel Milk Zone Mifi router <br><span class="cijena"> 449 kn</span></p>
+        <div class="button-2016 button-2016-magenta">
+            Odaberite
+        </div>
+      </div>
+
+      <div class="medium-6 small-6 columns">
+        <p class="l font-700"><img src="WebResources/images/THT/huawei_illustration.png" alt=""></p>
+        <p class="margin-bottom-1">Hawei 4G LTE WiFi Router <br><span class="cijena"> 749 kn</span></p>
+        <div class="button-2016 button-2016-magenta">
+            Odaberite
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- 5. Plavi section prije footera -->
+  <div class="paketi-2017"> 
+    <section class="main-2017 section-blue">
+      <div class="padding-top-15 padding-bottom-15 row center">
+        <h2 class="SM margin-bottom-1">Lorem ipsum dolor sit amet</h2>
+        <p class="M">Lorem ipsum dolor sit amet, consectetur <span class="underline"> adipisic </span>  elit. </p>
+      </div>
+    </section>
+  </div>
+
+<!-- 6. Footer -->
+  <div class="paketi-2017">
+    <footer id="footer-2016" class="padding-top-2 padding-bottom-05">
+        <ul class="row">
+            <li class="columns">
+                <ul>
+                  <li><a href="/kako-kupovati-u-webshopu#kako-kupovati-dostava">Kako kupovati u webshopu</a></li>
+                  <li><a href="/kako-kupovati-u-webshopu/kako-kupovati-mobilne-usluge">Mobiteli i tarife</a></li>
+                  <li><a href="/kako-kupovati-u-webshopu/kako-kupovati-fiksne-usluge ">Fiksne usluge</a></li>
+                </ul>
+            </li>
+            <li class="columns">
+                <ul>
+                  <li><a href="/kako-kupovati-u-webshopu/#uvjeti-i-nacin-placanja">Uvjeti i načini plaćanja</a></li>
+                  <li><a href="/kako-kupovati-u-webshopu/#kako-kupovati-dostava">Dostava uređaja</a></li>
+                  <li><a href="/kako-kupovati-u-webshopu/#otkazivanje-narudzbe">Kako otkazati narudžbu?</a></li>
+                </ul>
+            </li>
+            <li class="columns">
+                <ul>
+                  <li><a href="/pravne-napomene">Pravne napomene i cjenici</a></li>
+                  <li><a href="/podrska/t-prodajna-mjesta">Prodajna mjesta</a></li>
+                  <li><a href="/poslovni/veleprodaja/">Veleprodaja</a></li>     
+                  <li><a href="/karta-pokrivenosti">Karta pokrivenosti</a></li>
+                </ul>
+            </li>
+            <li class="columns">
+                <div class="footer-2016-social">
+                  <ul>
+                    <li class="footer-ico f1"><a href="http://www.facebook.com/HrvatskiTelekom" target="_blank"><span>Facebook/HrvatskiTelekom</span></a></li>
+                    <li class="footer-ico f2"><a href="http://twitter.com/hrvatskitelekom" target="_blank"><span>@hrvatskitelekom</span></a></li>
+                    <li class="footer-ico f3"><a href="http://www.youtube.com/user/HrvatskiTelekom" target="_blank"><span>Youtube/HrvatskiTelekom</span></a></li>
+                    <li class="footer-ico f4"><a href="https://plus.google.com/106401043936944637172/posts" target="_blank"><span>Google+</span></a></li>
+                    <li class="footer-ico f5"><a href="https://instagram.com/hrvatski.telekom" target="_blank"><span>Instagram</span></a></li>
+                  </ul>
+                  <a href="http://www.tportal.hr" target="_blank"><img src="https://static.hrvatskitelekom.hr/webresources/images/sprite/tportal.png" alt="Tportal.png"><span>tportal</span></a>
+                </div>
+            </li>
+            <li class="columns last">
+                <div class="footer-2016-copyright">
+                    <a href="http://www.t.ht.hr" target="_blank"><img src="https://static.hrvatskitelekom.hr/webresources/images/sprite/t-footer.png" alt="O nama"><span class="name xs">©&nbsp;Hrvatski Telekom&nbsp;<span id="the-year">2017</span></span></a>
+                </div>
+            </li>
+        </ul>
+    </footer>
+  </div>
+
+</body>
+</html>
+
